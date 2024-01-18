@@ -17,12 +17,16 @@ public class First {
 		
 		// addFirst
 		color.addFirst("White");
+		System.out.println(color);
 		// addLast
 		color.addLast("Black");
+		System.out.println(color);
 		// removeFirst
 		color.removeFirst();
+		System.out.println(color);
 		// removeLast
 		color.removeLast();
+		
 		
 		System.out.println(color);
 	}

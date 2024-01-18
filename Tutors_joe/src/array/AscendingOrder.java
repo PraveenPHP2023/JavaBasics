@@ -19,7 +19,7 @@ public class AscendingOrder {
 		{
 			for(int j = 1+i;j<a.length;j++) // j denotes 1st index
 			{
-				if(a[i]<a[j])
+				if(a[i]>a[j])
 				{
 					temp = a[i];
 					a[i] = a[j];
