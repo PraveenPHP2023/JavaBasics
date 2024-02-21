@@ -13,9 +13,11 @@ ArrayList <String> color =  new ArrayList <String> ();
 		color.add("yellow");
 		color.add("orange");
 		color.add("brown");
+		System.out.println(color);
 		
 		// set
 		color.set(1, "white");
+		System.out.println(color);
 		
 		// remove
 		color.remove(2);
